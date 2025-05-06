@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="assets/img/favicon.ico">
+		<title>Home Page</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1746224768248"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1746224768248">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" data-fls-header-scroll-show="" class="header">
+				<div class="header__container">
+					<div data-da=".menu__body, 768" class="header__contacts contacts-header">
+						<a href="#" class="contacts-header__item --icon-location">ST. LAMBOR, NEW YORK ( US )</a>
+						<a href="#" class="contacts-header__item">
+							<mark>NEWS</mark>
+							<span>This is the latest News !</span>
+						</a>
+						<a href="tel:+380991234567" class="contacts-header__item --icon-phone">CLINIC : +3(099) 123-45-67</a>
+					</div>
+					<div class="header__body body-header">
+						<a href="#" class="body-header__logo">
+							<img src="data:image/png;base64,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" alt="logo">
+						</a>
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="#" class="menu__link menu__link--active">Home</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">About us</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Shop</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Pages</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Blog</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Contact</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<a href="#" data-fls-button="" class="body-header__button button">BOOK NOW</a>
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</header>
+			<main class="page">
+				<section class="page__main main-section">
+					<div class="main-section__slider swiper" data-fls-slider="">
+						<div class="main-section__wrapper swiper-wrapper">
+							<div class="main-section__slide swiper-slide">
+								<div class="main-section__container">
+									<div class="main-section__header">
+										<div class="main-section__label">PLASTIC SURGERY</div>
+										<div class="main-section__sub-title">This is the</div>
+										<h2 class="main-section__title">Best Clinic_1</h2>
+									</div>
+									<div class="main-section__body">
+										<div class="main-section__shop-now">
+											<a href="#" class="">Shop Now</a>
+										</div>
+										<div class="main-section__text text">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing
+                           elit, sed do eiusmod tempor incididunt ut labore et
+                           dolore magna aliqua, nulla consequat risus ac lectus
+                           imperdiet
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="main-section__image">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/home/main-section/slide-01-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/home/main-section/slide-01-1200.webp" type="image/webp">
+										<img alt="Image" src="./assets/img/home/main-section/slide-01.webp">
+									</picture>
+								</div>
+							</div>
+							<div class="main-section__slide swiper-slide">
+								<div class="main-section__container">
+									<div class="main-section__header">
+										<div class="main-section__label">PLASTIC SURGERY</div>
+										<div class="main-section__sub-title">This is the</div>
+										<h2 class="main-section__title">Best Clinic_2</h2>
+									</div>
+									<div class="main-section__body">
+										<div class="main-section__shop-now">
+											<a href="#" class="">Shop Now</a>
+										</div>
+										<div class="main-section__text text">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing
+                           elit, sed do eiusmod tempor incididunt ut labore et
+                           dolore magna aliqua, nulla consequat risus ac lectus
+                           imperdiet
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="main-section__image">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/home/main-section/slide-01-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/home/main-section/slide-01-1200.webp" type="image/webp">
+										<img alt="Image" src="./assets/img/home/main-section/slide-01.webp">
+									</picture>
+								</div>
+							</div>
+							<div class="main-section__slide swiper-slide">
+								<div class="main-section__container">
+									<div class="main-section__header">
+										<div class="main-section__label">PLASTIC SURGERY</div>
+										<div class="main-section__sub-title">This is the</div>
+										<h2 class="main-section__title">Best Clinic_3</h2>
+									</div>
+									<div class="main-section__body">
+										<div class="main-section__shop-now">
+											<a href="#" class="">Shop Now</a>
+										</div>
+										<div class="main-section__text text">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing
+                           elit, sed do eiusmod tempor incididunt ut labore et
+                           dolore magna aliqua, nulla consequat risus ac lectus
+                           imperdiet
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="main-section__image">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/home/main-section/slide-01-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/home/main-section/slide-01-1200.webp" type="image/webp">
+										<img alt="Image" src="./assets/img/home/main-section/slide-01.webp">
+									</picture>
+								</div>
+							</div>
+						</div>
+						<div class="main-section__control control-main">
+							<div class="control-main__body"></div>
+						</div>
+					</div>
+				</section>
+				<section class="page__get-in-touch get-in-touch">
+					<div class="get-in-touch__container">
+						<div class="get-in-touch__body">
+							<div class="get-in-touch__content">
+								<h2 class="get-in-touch__title">Get in Touch</h2>
+								<div class="get-in-touch__text text">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Nulla non nunc eros.
+										<a href="#">Suspendisse scelerisque</a>
+										felis.
+									</p>
+								</div>
+							</div>
+							<form action="#" class="get-in-touch__form">
+								<input required data-fls-input="" autocomplete="off" type="text" name="form[]" data-error="error" placeholder="Name" class="get-in-touch__input input">
+								<input data-fls-input="" autocomplete="off" type="email" name="form[]" data-error="Error" required placeholder="Email" class="get-in-touch__input input">
+								<input required data-fls-input="" autocomplete="off" type="text" name="form[]" data-error="error" placeholder="Message" class="get-in-touch__input input">
+								<button type="submit" class="get-in-touch__button button">Contact</button>
+							</form>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div data-fls-spollers="549,max" class="footer__body body-footer _spoller-init">
+					<div class="body-footer__container">
+						<div class="body-footer__column">
+							<div class="body-footer__content">
+								<a href="#" class="body-footer__logo">
+									<img src="data:image/png;base64,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" alt="Image">
+								</a>
+								<div class="body-footer__text text">
+									<p>
+										Suspendisse commodo bibendum purus at hendrerit. Vivamus
+                     aliquam bibendum.
+									</p>
+								</div>
+								<div class="body-footer__social social">
+									<ul class="social__list">
+										<li class="social__item">
+											<a href="#" class="social__link --icon-social-fb"></a>
+										</li>
+										<li class="social__item">
+											<a href="#" class="social__link --icon-social-tw"></a>
+										</li>
+										<li class="social__item">
+											<a href="#" class="social__link --icon-social-yt"></a>
+										</li>
+										<li class="social__item">
+											<a href="#" class="social__link --icon-social-v"></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="body-footer__column">
+							<details class="body-footer__spoller spoller-footer">
+								<summary data-fls-spollers-close="" class="spoller-footer__title">Our Customers</summary>
+								<div class="spoller-footer__body">
+									<div class="spoller-footer__text text">
+										<p>Quisque in lorem ut arcu pretium aliquet praesent.</p>
+									</div>
+									<div class="spollers-footer__user user-info">
+										<div class="user-info__avatar">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/avatar-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/avatar-1200.webp" type="image/webp">
+												<img alt="Image" src="./assets/img/avatar.webp">
+											</picture>
+										</div>
+										<div class="user-info__body">
+											<h4 class="user-info__title">
+												<a href="#" class="user-info__link-title">John Doe</a>
+											</h4>
+											<div class="user-info__position">Designer</div>
+										</div>
+									</div>
+								</div>
+							</details>
+						</div>
+						<div class="body-footer__column">
+							<details class="body-footer__spoller spoller-footer">
+								<summary data-fls-spollers-close="" class="spoller-footer__title">Quick Contacts</summary>
+								<div class="spoller-footer__body">
+									<ul class="spoller-footer__contacts contact-footer">
+										<li class="contact-footer__item">
+											<a href="tel:+380991234567" class="contact-footer__value --icon-phone">Phone : +3(099) 123-45-67</a>
+										</li>
+										<li class="contact-footer__item">
+											<a href="mailto:clinic@surgery.co" class="contact-footer__value --icon-mail">Email : clinic@surgery.co</a>
+										</li>
+										<li class="contact-footer__item">
+											<span class="contact-footer__value --icon-address">Address : Main St, 1234</span>
+										</li>
+										<li class="contact-footer__item">
+											<span class="contact-footer__value --icon-location">Country : United States</span>
+										</li>
+									</ul>
+								</div>
+							</details>
+						</div>
+						<div class="body-footer__column body-footer__column--gallery">
+							<details class="body-footer__spoller spoller-footer">
+								<summary data-fls-spollers-close="" class="spoller-footer__title">Our Gallery</summary>
+								<div class="spoller-footer__body">
+									<div class="spoller_footer__gallery gallery-footer">
+										<a href="" class="gallery-footer__item">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/gallery/01-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/gallery/01-1200.webp" type="image/webp">
+												<img alt="Image" src="./assets/img/gallery/01.webp">
+											</picture>
+										</a>
+										<a href="" class="gallery-footer__item">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/gallery/02-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/gallery/02-1200.webp" type="image/webp">
+												<img alt="Image" src="./assets/img/gallery/02.webp">
+											</picture>
+										</a>
+										<a href="" class="gallery-footer__item">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/gallery/03-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/gallery/03-1200.webp" type="image/webp">
+												<img alt="Image" src="./assets/img/gallery/03.webp">
+											</picture>
+										</a>
+										<a href="" class="gallery-footer__item">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/gallery/04-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/gallery/04-1200.webp" type="image/webp">
+												<img alt="Image" src="./assets/img/gallery/04.webp">
+											</picture>
+										</a>
+										<a href="" class="gallery-footer__item">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/gallery/05-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/gallery/05-1200.webp" type="image/webp">
+												<img alt="Image" src="./assets/img/gallery/05.webp">
+											</picture>
+										</a>
+										<a href="" class="gallery-footer__item">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/gallery/06-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/gallery/06-1200.webp" type="image/webp">
+												<img alt="Image" src="./assets/img/gallery/06.webp">
+											</picture>
+										</a>
+									</div>
+								</div>
+							</details>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom bottom-footer">
+					<div class="bottom-footer__container">
+						<div class="bottom-footer__item --icon-copy">Copyright 2025 Nicdark Themes</div>
+						<div class="bottom-footer__item --icon-envato">Envato Power Elite Author</div>
+						<form action="#" class="bottom-footer__subscribe subscribe-footer">
+							<input autocomplete="off" type="email" name="form[]" data-error="Error" required placeholder="Email" class="subscribe-footer__input input">
+							<button type="submit" class="subscribe-footer__button button">SEND</button>
+						</form>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
